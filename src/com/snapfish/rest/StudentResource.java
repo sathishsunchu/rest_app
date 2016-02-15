@@ -12,7 +12,7 @@ public class StudentResource {
 	@GET
 	@Produces({ MediaType.APPLICATION_JSON })
 	public Student getStudent(){
-		Student s = new Student(100, "Sathish", 505.00);
+		Student s = new Student(100, "Sathish", "Java", 5000.00, 12345679);
 		return s;
 	}
 	
