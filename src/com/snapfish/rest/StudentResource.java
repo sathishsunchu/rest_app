@@ -13,6 +13,7 @@ public class StudentResource {
 	@Produces({ MediaType.APPLICATION_JSON })
 	public Student getStudent(){
 		Student s = new Student(100, "Sathish", "Java", 5000.00, 12345679);
+		// it is comment
 		return s;
 	}
 	
